@@ -1,7 +1,7 @@
 import requests
 
 # --- CONFIGURATION ---
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = input("Enter your GitHub Personal Access Token: ").strip()
 ORG_NAME = "pcf-branch-protection-lab" 
 EXCLUDED_REPOS = ["config", "config-test"]   
 
